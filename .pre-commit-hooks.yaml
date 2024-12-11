@@ -1,0 +1,9 @@
+- id: ct-golang
+  args: []
+  description: Uses golang to build a local copy of 'ct'
+  entry: ct
+  files: ''
+  language: golang
+  name: "chart testing"
+  require_serial: true
+  pass_filenames: false
